@@ -10,7 +10,7 @@ import com.codeReading.core.framework.db.PageBean;
 import com.codeReading.core.framework.web.InnerResultData;
 import com.codeReading.core.framework.web.ResultData;
 
-public interface IDeploymentService {
+public interface IDeploymentService  {
 	/**
 	 * 搜索文章信息
 	 * @param articleSearch 文章查询过滤信息
