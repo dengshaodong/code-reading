@@ -287,7 +287,47 @@
 	        <artifactId>fastjson</artifactId>
 	        <version>1.2.2</version>
 	    </dependency>        
-        		
+		
+		<dependency>
+			<groupId>opengrok</groupId>
+			<artifactId>com.opengrok</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/opengrok.jar</systemPath>
+		</dependency>        
+
+		<dependency>
+			<groupId>jrcs</groupId>
+			<artifactId>com.jrcs</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/jrcs.jar</systemPath>
+		</dependency>    		
+		
+		<dependency>
+			<groupId>txtmark-0.13</groupId>
+			<artifactId>com.txtmark-0.13</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/txtmark-0.13.jar</systemPath>
+		</dependency>  		
+
+		<dependency>
+			<groupId>txtmark-0.13-javadoc</groupId>
+			<artifactId>com.txtmark-0.13-javadoc</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/txtmark-0.13-javadoc.jar</systemPath>
+		</dependency>  
+
+		<dependency>
+			<groupId>txtmark-0.13-sources</groupId>
+			<artifactId>com.txtmark-0.13-sources</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/txtmark-0.13-sources.jar</systemPath>
+		</dependency>  		
+		
 	</dependencies>
 
 	<build>
